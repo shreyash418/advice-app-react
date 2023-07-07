@@ -20,7 +20,7 @@
 .card {
   background: whitesmoke;
   width: 40%;
-  height: 20%;
+  height: 30%;
   display: flex;
   align-items: center;
   flex-direction: column;
