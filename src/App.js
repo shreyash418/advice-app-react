@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-
+import Trans from './Trans';
 import './App.css';
 
 class App extends React.Component {
@@ -33,6 +33,7 @@ console.log(error);
           <button className="button" onClick={this.fetchAdvice}>
 <span>GIVE ME ADVICE!</span>
           </button>
+      <Trans/>
         </div>
       </div>
     );
